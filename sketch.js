@@ -112,7 +112,7 @@ function draw() {
         jumpSound.play() ;
         soundFlag= "played"
       }
-      touches[] ;
+      touches= [] ;
     }
      if(keyWentUp("space")){
        soundFlag = "silent" ;
